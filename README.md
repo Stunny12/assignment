@@ -1,1 +1,1 @@
-Course Era Assignment for Module 2
+Coursera Assignment for Module 2
