@@ -15,7 +15,7 @@ display: grid;
 }
 .header
 {
-font-size:1.5em;
+font-size:1.75em;
 text-align:center;
 padding : 20px 20px 20px 20px;
 font-weight:bold;
@@ -44,6 +44,8 @@ section h2
   border: 1px solid black;
   text-align:center;
   width:35%;
+  font-size:1.25em;
+ font-weight:bold;
 }
 section p
 {
