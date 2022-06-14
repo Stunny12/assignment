@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: 'Roboto';
+  font-size : 20px;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.container
+{
+width:100%;
+display: grid;
+}
+.header
+{
+font-size:1.5em;
+text-align:center;
+padding : 20px 20px 20px 20px;
+font-weight:bold;
+}
+.row
+{
+width:100%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+section
+{
+	margin: 10px 10px 10px 10px;
+	padding : 0px 0px 10px 10px;
+	height:200px;
+      background-color:grey;
+      border : 0px 0px 1px 1px solid black;
+}
+section h2
+{
+  position: relative;
+  float:right;
+  border: 1px solid black;
+  text-align:center;
+  width:35%;
+}
+section p
+{
+  padding-top : 45px;
+}
+.chicken
+{
+background-color: pink;
+}
+.beef
+{
+background-color: red;
+color:white;
+}
+.sushi
+{
+background-color: yellow;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 767px) { 
+.col-sm-12
+{
+float:left;
+ width:100%;
+}
+
+ }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 768px) and (max-width: 991px) { 
+
+.col-md-6,.col-md-12 { float:left; }
+
+.col-md-6
+{
+ width: 50%;
+}
+.col-md-12
+{
+ width: 100%;
+}
+
+}
+
+/* Large devices (large desktops, 992px and up) */
+@media (min-width: 992px) { 
+.col-lg-4
+{
+ float: left;
+ width: 33.32%;
+}
+ }
